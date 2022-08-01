@@ -1,0 +1,44 @@
+/* comentario en css*/
+*{ /*con esto quitamos los margenes y padding, por si heredamos alguno*/
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body{ /*llamdo de etiqueta*/
+   background-color: whitesmoke;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+   width: 60%; 
+   margin: auto;
+}
+
+.principal{ 
+    background-image:url(../imgs/principal.png);
+    background-position: center;
+}
+
+.titulo-principal{
+    font-weight: 300;
+    font-style: italic;
+    padding: 50px 0px 0px 50px;
+    margin:10px 0px 0px 10px; /*deje un margin superior de 10px, me parece mejor, para esta tarea*/
+}
+
+.subtitulo-principal{
+    padding: 0px 0px 30px 50px;
+    margin: 0px 0px 0px 10px;
+    
+}
+
+.box-foto{  /*llamdo de clase*/
+    /*background-color: white; NO queda tan bien*/
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 10px;
+    text-align: justify;
+}
+
+.box-texto{  /*llamdo de clase*/
+    padding: 10px;
+    margin: 10px 0px 10px 10px;
+    text-align: justify;
+}

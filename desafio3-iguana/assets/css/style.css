@@ -1,0 +1,151 @@
+*{ /*con esto quitamos los margenes y padding, por si heredamos alguno*/
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000000;
+}
+header{
+    width: 1280px;
+    padding: 7px 0;
+    width: 1280px; /*dejar deshabilitado permite abarcar el ancho total */
+    height: 59px;
+
+    /* Caracteristicas Texto */
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 500; /* Grosor letra, numero mas alto mas gruesa*/
+    font-size: 50px; /* Tamaño del texto "alto"*/
+    line-height: 59px; /* Determina el tamaño del bloque que contiene el texto */
+    letter-spacing: 0px;
+    
+    /*Aplica a todo el header*/
+    opacity: 1; /* 1 es solido, 0 es transparente, puedo escribir en 0.9 o 90% */
+    text-align: center; /*Centrado que aplica a todo header*/
+}
+
+/* ////// MAIN, imagen principal ////// */
+/*Tamaño imagen*/
+main{
+    width: 1280px;
+    height: 727px;
+}
+
+.imagen-principal{
+    width: 1280px;
+    height: 727px;
+}
+
+/* ////// SECION IMAGEN Y TEXTO ////// */
+
+.texto-imagen{ 
+    width: 1280px;
+    height: 348px;
+}
+
+.margenes-texto-imagen{
+    padding: 45px 150px 66px 150px;
+    display: flow-root;
+}
+
+.texto1{
+    display: inline-block;
+    float: left;
+
+    /* tamaño contenedor*/
+    width: 475px;
+    height: 197px;
+
+    padding-top: 30px;
+
+    /* Caracteristicas Texto*/
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;  
+}
+
+.imagen-iguana-1{
+    float: right;
+    width: 399px;
+    height: 237px;
+}
+
+/* ////// SECION CARACTERISTICAS ////// */
+
+.features{
+    width: 1280px;
+    height: 298px;
+    background-color: #1E1A13;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.features-titulo{
+    font-family: Raleway;
+    color: #FFFFFF;  
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0px;
+
+}
+
+.feature-icono{
+    display: inline-block;
+    color: #FFFFFF;
+    width: 30%;
+
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: Raleway;
+    padding-top: 50px;
+}
+
+.features i{
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+
+/* ////// SECION GLAERIA DE IMAGENES ////// */
+.gallery-imagens{
+    width: 1280px;
+    height: 348px;
+}
+
+.maging-gallery-imagens{
+    padding: 73px 150px;
+}
+.imagen-gallery{
+    display: inline-block;
+    width: 316px;
+    height: 202px;
+    padding: 0 2px;
+}
+
+/* ////// FOOTER ////// */
+footer{
+    background-color: #1E1A13;
+    width: 1280px;
+    height: 63px;
+    
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 39px;
+}
+
+footer a{
+    color: #FFFFFF;
+    
+}

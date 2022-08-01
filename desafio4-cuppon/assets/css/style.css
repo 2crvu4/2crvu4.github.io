@@ -1,0 +1,68 @@
+*{
+    font-family: 'Roboto';
+}
+
+.bg-personalizado{
+    background-color: #28A745;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 15em;
+    object-fit: cover; 
+}
+
+.card-title{
+    font-size: 20pt;
+    font-weight: 300;
+    color: #212529;
+}
+
+.card-subtitle{
+    font-size: 16pt;
+    font-weight: 300;
+    color: #707070;
+}
+
+.card-direccion{
+    font-size: 13pt;
+    font-weight: 300;
+    color: #707070;
+}
+
+.card-precio{
+    font-size: 16pt;
+    font-weight: 300;
+    color: #707070;
+}
+
+.card-precio-oferta{
+    font-size: 20pt;
+    font-weight: 500;
+    color: #28A745;
+}
+
+.text-nombre-mail{
+    font-size: 16pt;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.form-control{
+    font-size: 16pt;
+    font-weight: 300;
+    color: #707070;
+}
+
+.footer-marca{
+    font-size: 17pt;
+    font-weight: 500;
+    color: #000;
+}
+
+.text-derechos{
+    font-size: 16pt;
+    font-weight: 300;
+    color: #707070;
+}
+
