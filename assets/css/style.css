@@ -5,3 +5,19 @@
 #desafios-latam{
     background: rgb(244, 155, 2);
 }
+
+.card-title{
+    text-align: center;
+}
+.parrafo-presentacion{
+    text-align: justify;
+}
+
+.redes-sociales{
+    color: rgb(244, 155, 2);
+}
+
+.card-text{
+    text-align: justify;
+
+}
